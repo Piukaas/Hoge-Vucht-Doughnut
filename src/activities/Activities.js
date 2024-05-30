@@ -20,7 +20,7 @@ const Activities = () => {
     axios.get("/data/activities.json").then((response) => {
       const data = response.data;
       setActivities(data);
-      const uniqueTags = [...new Set(data.flatMap((activity) => activity.tags))];
+      const uniqueTags = [...new Set(data.flatMap((activity) => (Array.isArray(activity.tags) ? activity.tags.map((tag) => tag.name) : [])))];
       setTags(uniqueTags);
       setFilteredActivities(data); // Initially set filtered activities to all activities
       filterActivities(data);
@@ -39,7 +39,7 @@ const Activities = () => {
     }
 
     if (selectedTag) {
-      filtered = filtered.filter((activity) => activity.tags.includes(selectedTag));
+      filtered = filtered.filter((activity) => activity.tags.some((tag) => tag.name === selectedTag));
     }
 
     if (statusFilter) {
@@ -84,7 +84,7 @@ const Activities = () => {
   };
 
   return (
-    <section className="feature-heading">
+    <section>
       <div className="container">
         <h2 className="text-center">Feature Heading</h2>
         <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.</p>
@@ -139,11 +139,13 @@ const Activities = () => {
                     {activity.title} - <span className={`status ${activity.status}`}>{activity.status}</span>
                   </h3>
                   <div className="tags">
-                    {activity.tags.map((tag) => (
-                      <span key={tag} className="badge badge-secondary mr-1">
-                        {tag}
-                      </span>
-                    ))}
+                    {Array.isArray(activity.tags)
+                      ? activity.tags.map((tag) => (
+                          <span key={tag.name} className="badge badge-primary mr-1" style={{ background: "blue" }}>
+                            {tag.name}
+                          </span>
+                        ))
+                      : null}
                   </div>
                   <p>{activity.description}</p>
                   <p>

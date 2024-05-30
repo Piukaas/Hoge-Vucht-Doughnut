@@ -25,6 +25,7 @@ body {
 
 .content {
   margin-top: 100px;
+  padding: 50px;
 }
 
 .txt-hoge-vucht {
@@ -215,6 +216,10 @@ a:hover {
 }
 
 /* Home */
+.carousel {
+  padding-bottom: 75px;
+}
+
 .carousel img {
   border-radius: 25px;
 }
@@ -229,10 +234,6 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   right: initial;
-}
-
-.feature-heading {
-  padding: 50px;
 }
 
 .feature-box {

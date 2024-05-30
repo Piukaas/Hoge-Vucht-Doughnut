@@ -5,7 +5,7 @@ const Features = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="feature-heading mt-10">
+    <section>
       <div className="container">
         <h2 className="text-center">{t("welcomeMessage")}</h2>
         <p className="text-center">{t("introMessage")}</p>

@@ -7,7 +7,12 @@
     "startDate": "2017-01-01",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut1.jpg",
     "address": {
@@ -31,7 +36,12 @@
     "startDate": "2017-01-02",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 2",
+        "type": "activityType"
+      }
+    ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut2.jpg",
     "address": {
@@ -55,7 +65,12 @@
     "startDate": "2017-01-03",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "cancelled",
     "doughnutImage": "http://example.com/doughnut3.jpg",
     "address": {
@@ -79,7 +94,12 @@
     "startDate": "2017-01-04",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "finished",
     "doughnutImage": "http://example.com/doughnut4.jpg",
     "address": {
@@ -103,7 +123,12 @@
     "startDate": "2017-01-05",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut5.jpg",
     "address": {
@@ -127,7 +152,12 @@
     "startDate": "2017-01-06",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut6.jpg",
     "address": {
@@ -151,7 +181,12 @@
     "startDate": "2017-01-01",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut1.jpg",
     "address": {
@@ -175,7 +210,12 @@
     "startDate": "2017-01-02",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut2.jpg",
     "address": {
@@ -199,7 +239,12 @@
     "startDate": "2017-01-03",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "cancelled",
     "doughnutImage": "http://example.com/doughnut3.jpg",
     "address": {
@@ -223,7 +268,12 @@
     "startDate": "2017-01-04",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "finished",
     "doughnutImage": "http://example.com/doughnut4.jpg",
     "address": {
@@ -247,7 +297,12 @@
     "startDate": "2017-01-05",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut5.jpg",
     "address": {
@@ -271,7 +326,12 @@
     "startDate": "2017-01-06",
     "startTime": "12:00",
     "endTime": "14:00",
-    "tags": ["tag1", "tag2", "tag3"],
+    "tags": [
+      {
+        "name": "Tag 1",
+        "type": "targetAudience"
+      }
+    ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut6.jpg",
     "address": {
