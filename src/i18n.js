@@ -13,12 +13,12 @@ const resources = Object.keys(translations).reduce((acc, key) => {
   return acc;
 }, {});
 
-const storedLanguage = localStorage.getItem("language") || "en";
+const storedLanguage = localStorage.getItem("language") || "nl";
 
 i18n.use(initReactI18next).init({
   resources,
   lng: storedLanguage,
-  fallbackLng: "en",
+  fallbackLng: "nl",
   interpolation: {
     escapeValue: false,
   },
