@@ -1,0 +1,30 @@
+{
+  "dutch": {
+    "nl": "Nederlands",
+    "en": "Dutch"
+  },
+  "english": {
+    "nl": "Engels",
+    "en": "English"
+  },
+  "activities": {
+    "nl": "Activiteiten",
+    "en": "Activities"
+  },
+  "initiatives": {
+    "nl": "Initiatieven",
+    "en": "Initiatives"
+  },
+  "doughnut": {
+    "nl": "Donut",
+    "en": "Doughnut"
+  },
+  "nieuws": {
+    "nl": "Nieuws",
+    "en": "News"
+  },
+  "login": {
+    "nl": "Inloggen",
+    "en": "Login"
+  }
+}

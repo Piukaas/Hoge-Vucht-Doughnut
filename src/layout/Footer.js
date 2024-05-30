@@ -1,31 +1,34 @@
 import React from "react";
+import Map from "../details/Map";
 
 function Footer() {
   return (
-    <footer class="bottom-padding top-padding">
-      <div class="row">
-        <div class="col-md-4">
+    <footer className="bottom-padding top-padding">
+      <div className="row">
+        <div className="col-md-4">
           <h5>About me</h5>
           <p>Fortnite</p>
         </div>
 
-        <div class="col-md-4">
+        <div className="col-md-4">
           <h5>Contact</h5>
           <p>
-            <i class="fa-solid fa-home"></i> Breda, The Netherlands
+            <i className="fa-solid fa-home"></i> Breda, The Netherlands
           </p>
           <p>
-            <i class="fa-solid fa-envelope"></i> email&#64;gmail.com
+            <i className="fa-solid fa-envelope"></i> email&#64;gmail.com
           </p>
           <p>
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
             email&#64;avans.nl
           </p>
         </div>
 
-        <div class="col-md-4">
+        <div className="col-md-4">
           <h5>Follow me</h5>
         </div>
+
+        <Map address="Wisentstraat 31, 4817LZ, Breda, The Netherlands" />
       </div>
     </footer>
   );

@@ -2,34 +2,31 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import LanguageDropdown from "./LanguageDropdown";
+import { useTranslation } from "react-i18next";
 
-class Navbar extends React.Component {
-  changeLanguage = (language) => {
-    // Implement your language change logic here
-  };
+function Navbar() {
+  const { t } = useTranslation();
 
-  render() {
-    return (
-      <nav className="navbar navbar-expand-lg bg-hoge-vucht fixed-top txt-white" style={{ height: "75px", borderBottomRightRadius: "20px", borderBottomLeftRadius: "20px" }}>
-        <LanguageDropdown />
+  return (
+    <nav className="navbar navbar-expand-lg bg-hoge-vucht fixed-top txt-white">
+      <LanguageDropdown />
 
-        <div className="container-fluid justify-content-center">
-          <Link className="navbar-brand" to="/">
-            Activities
-          </Link>
-          <Link className="navbar-brand" to="/">
-            <img src={logo} alt="Logo" width="150" style={{ marginTop: "75px", border: "5px solid #f9f4fa", borderRadius: "50%", position: "ab", userSelect: "none" }} draggable="false" />
-          </Link>
-          <Link className="navbar-brand" to="/hello">
-            Fortnite
-          </Link>
-        </div>
-        <Link className="navbar-brand" to="/">
-          Inloggen
+      <div className="container-fluid justify-content-center">
+        <Link className="navbar-brand" to="/activities">
+          {t("activities")}
         </Link>
-      </nav>
-    );
-  }
+        <Link className="navbar-brand" to="/">
+          <img src={logo} alt="Logo" className="logo" />
+        </Link>
+        <Link className="navbar-brand" to="/hello">
+          {t("doughnut")}
+        </Link>
+      </div>
+      <Link className="navbar-brand" to="/">
+        {t("login")}
+      </Link>
+    </nav>
+  );
 }
 
 export default Navbar;
