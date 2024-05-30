@@ -251,6 +251,13 @@ a:hover {
   cursor: pointer;
 }
 
+.feature-box img {
+  max-height: 200px;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+}
+
 .icon-container {
   display: flex;
   justify-content: center;
