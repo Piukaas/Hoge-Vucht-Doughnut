@@ -19,12 +19,104 @@
     "nl": "Donut",
     "en": "Doughnut"
   },
-  "nieuws": {
+  "news": {
     "nl": "Nieuws",
     "en": "News"
   },
-  "login": {
-    "nl": "Inloggen",
-    "en": "Login"
+  "search": {
+    "nl": "Zoeken",
+    "en": "Search"
+  },
+  "community": {
+    "nl": "Gemeenschap",
+    "en": "Community"
+  },
+  "about": {
+    "nl": "Over",
+    "en": "About"
+  },
+  "neighbourhood-point": {
+    "nl": "Buurtpunt",
+    "en": "Neigbourhood point"
+  },
+  "volunteering": {
+    "nl": "Vrijwilligerswerk",
+    "en": "Volunteering"
+  },
+  "resources": {
+    "nl": "Middelen",
+    "en": "Resources"
+  },
+  "hoge-vucht": {
+    "nl": "Hoge Vucht",
+    "en": "Hoge Vucht"
+  },
+  "history": {
+    "nl": "Geschiedenis",
+    "en": "History"
+  },
+  "location": {
+    "nl": "Locatie",
+    "en": "Location"
+  },
+  "princiles": {
+    "nl": "Principes",
+    "en": "Princiles"
+  },
+  "tools": {
+    "nl": "Tools",
+    "en": "Tools"
+  },
+  "legal": {
+    "nl": "Juridisch",
+    "en": "Legal"
+  },
+  "legal-disclaimer": {
+    "nl": "Juridische disclaimer",
+    "en": "Legal disclaimer"
+  },
+  "privacy-policy": {
+    "nl": "Privacybeleid",
+    "en": "Privacy policy"
+  },
+  "terms-of-service": {
+    "nl": "Gebruiksvoorwaarden",
+    "en": "Terms of service"
+  },
+  "latest-news": {
+    "nl": "Krijg het laatste nieuws en updates",
+    "en": "Get the latest news and updates"
+  },
+  "subscribe": {
+    "nl": "Abonneren",
+    "en": "Subscribe"
+  },
+  "read-more": {
+    "nl": "Lees meer",
+    "en": "Read more"
+  },
+  "carousel-caption1": {
+    "nl": "Renovaties in Winkelcentrum",
+    "en": "Renovations in Shopping Center"
+  },
+  "carousel-caption2": {
+    "nl": "Innovatie in de Buurt",
+    "en": "Innovation in the Neighbourhood"
+  },
+  "carousel-caption3": {
+    "nl": "Ontdek de Nieuwe Bibliotheek",
+    "en": "Discover the New Library"
+  },
+  "carousel-text1": {
+    "nl": "Leer meer over de renovaties in het winkelcentrum.",
+    "en": "Learn more about the renovations in the shopping center."
+  },
+  "carousel-text2": {
+    "nl": "Ontdek de nieuwste innovaties in onze buurt.",
+    "en": "Discover the latest innovations in our neighbourhood."
+  },
+  "carousel-text3": {
+    "nl": "Verken de functies van onze nieuwe bibliotheek.",
+    "en": "Explore the features of our new library."
   }
 }

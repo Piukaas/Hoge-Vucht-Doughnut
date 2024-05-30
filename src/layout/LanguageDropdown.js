@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 function LanguageDropdown() {
   const [isOpen, setIsOpen] = useState(false);
-  const { i18n, t, ready } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   useEffect(() => {
     const storedLanguage = localStorage.getItem("language");
@@ -24,16 +24,17 @@ function LanguageDropdown() {
   const flag = i18n.language === "nl" ? dutch : english;
 
   return (
-    <div onClick={toggleOpen} className="btn dropdown-toggle position-relative">
-      <img src={flag} alt="Flag" />
+    <div onClick={toggleOpen} className="btn dropdown-toggle">
+      <img src={flag} alt="Flag" className="toggle" />
       {isOpen && (
         <div className="bg-hoge-vucht language-dropdown">
-          <p onClick={() => changeLanguage("nl")}>
-            <img src={dutch} alt="Dutch flag" />
+          <p className="align-left language" onClick={() => changeLanguage("nl")}>
+            <img src={dutch} className="mr-10" alt="Dutch flag" />
             {t("dutch")}
           </p>
-          <p onClick={() => changeLanguage("en")}>
-            <img src={english} alt="English flag" />
+          <hr />
+          <p className="align-left language" onClick={() => changeLanguage("en")}>
+            <img src={english} className="mr-10" alt="English flag" />
             {t("english")}
           </p>
         </div>
