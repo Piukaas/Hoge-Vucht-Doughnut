@@ -118,5 +118,61 @@
   "carousel-text3": {
     "nl": "Verken de functies van onze nieuwe bibliotheek.",
     "en": "Explore the features of our new library."
+  },
+  "welcomeMessage": {
+    "en": "Welcome to our News Feed",
+    "nl": "Welkom bij onze nieuwsfeed"
+  },
+  "introMessage": {
+    "en": "Stay updated with our latest news, goals, and interesting happenings. Here's a quick rundown of what's been going on recently.",
+    "nl": "Blijf op de hoogte van ons laatste nieuws, doelen en interessante gebeurtenissen. Hier is een snelle samenvatting van wat er recentelijk is gebeurd."
+  },
+  "funnyIncidentTitle": {
+    "en": "Funny Incident",
+    "nl": "Grappig Incident"
+  },
+  "funnyIncidentDescription": {
+    "en": "Our office pet, a kiwi bird named Kiwi, managed to sneak into a board meeting and steal the show with its antics!",
+    "nl": "Ons kantoorhuisdier, een kiwi genaamd Kiwi, wist stiekem een bestuursvergadering binnen te sluipen en stal de show met zijn capriolen!"
+  },
+  "readMore": {
+    "en": "Read More",
+    "nl": "Lees Meer"
+  },
+  "libraryOpeningTitle": {
+    "en": "Library Opening",
+    "nl": "Opening Bibliotheek"
+  },
+  "libraryOpeningDescription": {
+    "en": "We're excited to announce that our new library will be open to the public from the 25th of May. Come and explore our collection!",
+    "nl": "We zijn verheugd aan te kondigen dat onze nieuwe bibliotheek vanaf 25 mei open zal zijn voor het publiek. Kom en ontdek onze collectie!"
+  },
+  "learnMore": {
+    "en": "Learn More",
+    "nl": "Leer Meer"
+  },
+  "currentGoalTitle": {
+    "en": "Current Goal",
+    "nl": "Huidig Doel"
+  },
+  "currentGoalDescription": {
+    "en": "We're currently working towards reducing our carbon footprint by 20% in the next year. Join us in our sustainability efforts!",
+    "nl": "We werken momenteel aan het verminder van onze CO2-voetafdruk met 20% in het komende jaar. Doe mee aan onze duurzaamheidsinspanningen!"
+  },
+  "getInvolved": {
+    "en": "Get Involved",
+    "nl": "Doe Mee"
+  },
+  "newDataTitle": {
+    "en": "New Data",
+    "nl": "Nieuwe Gegevens"
+  },
+  "newDataDescription": {
+    "en": "We've just published our latest research data. Check out our findings on the impact of technology on mental health.",
+    "nl": "We hebben zojuist onze nieuwste onderzoeksgegevens gepubliceerd. Bekijk onze bevindingen over de impact van technologie op de geestelijke gezondheid."
+  },
+  "viewData": {
+    "en": "View Data",
+    "nl": "Bekijk Gegevens"
   }
 }
