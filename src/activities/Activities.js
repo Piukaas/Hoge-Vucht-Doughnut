@@ -104,6 +104,7 @@ const Activities = () => {
                 <option value="finished">Finished</option>
               </select>
             </div>
+            <div className="col-md mb-3"></div>
             <div className="col-md-2 mb-3 d-flex align-items-center">
               <i className="fa-solid fa-sort mr-5"></i>
               <select className="form-control" value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
