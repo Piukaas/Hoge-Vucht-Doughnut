@@ -11,6 +11,7 @@ const Activities = () => {
   const [selectedTag, setSelectedTag] = useState("");
   const [sortOption, setSortOption] = useState("date-asc");
   const [statusFilter, setStatusFilter] = useState("upcoming");
+  const [startDate, setStartDate] = useState("");
 
   const [currentPage, setCurrentPage] = useState(1);
   const activitiesPerPage = 6;
@@ -28,7 +29,7 @@ const Activities = () => {
 
   useEffect(() => {
     filterActivities(activities); // Pass the activities state to filterActivities
-  }, [searchQuery, selectedTag, sortOption, statusFilter]);
+  }, [searchQuery, selectedTag, sortOption, statusFilter, startDate]);
 
   const filterActivities = (activitiesData) => {
     let filtered = activitiesData;
@@ -43,6 +44,14 @@ const Activities = () => {
 
     if (statusFilter) {
       filtered = filtered.filter((activity) => activity.status === statusFilter);
+    }
+
+    if (startDate) {
+      const selectedDate = new Date(startDate);
+      filtered = filtered.filter((activity) => {
+        const activityDate = new Date(activity.startDate);
+        return activityDate.getDate() === selectedDate.getDate() && activityDate.getMonth() === selectedDate.getMonth() && activityDate.getFullYear() === selectedDate.getFullYear();
+      });
     }
 
     if (sortOption === "name-asc") {
@@ -82,7 +91,7 @@ const Activities = () => {
 
         <div className="filter-row mb-4">
           <div className="row">
-            <div className="col-md-3 mb-3 d-flex align-items-center">
+            <div className="col-md-4 mb-3 d-flex align-items-center">
               <i className="fa fa-search mr-5"></i>
               <input type="text" className="form-control" placeholder="Search by title" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
@@ -104,7 +113,9 @@ const Activities = () => {
                 <option value="finished">Finished</option>
               </select>
             </div>
-            <div className="col-md mb-3"></div>
+            <div className="col-md-2 mb-3">
+              <input type="date" className="form-control" value={startDate} onChange={(e) => setStartDate(e.target.value)} />
+            </div>
             <div className="col-md-2 mb-3 d-flex align-items-center">
               <i className="fa-solid fa-sort mr-5"></i>
               <select className="form-control" value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
