@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 
 const Activities = () => {
   const [activities, setActivities] = useState([]);
@@ -14,6 +14,46 @@ const Activities = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const activitiesPerPage = 6;
 
+  const filterActivities = useCallback(
+    (activitiesData) => {
+      let filtered = activitiesData;
+
+      if (searchQuery) {
+        filtered = filtered.filter((activity) => activity.title.toLowerCase().includes(searchQuery.toLowerCase()));
+      }
+
+      if (selectedTag) {
+        filtered = filtered.filter((activity) => activity.tags.some((tag) => tag.name === selectedTag));
+      }
+
+      if (statusFilter) {
+        filtered = filtered.filter((activity) => activity.status === statusFilter);
+      }
+
+      if (startDate) {
+        const selectedDate = new Date(startDate);
+        filtered = filtered.filter((activity) => {
+          const activityDate = new Date(activity.startDate);
+          return activityDate.getDate() === selectedDate.getDate() && activityDate.getMonth() === selectedDate.getMonth() && activityDate.getFullYear() === selectedDate.getFullYear();
+        });
+      }
+
+      if (sortOption === "name-asc") {
+        filtered.sort((a, b) => a.title.localeCompare(b.title));
+      } else if (sortOption === "name-desc") {
+        filtered.sort((a, b) => b.title.localeCompare(a.title));
+      } else if (sortOption === "date-asc") {
+        filtered.sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
+      } else if (sortOption === "date-desc") {
+        filtered.sort((a, b) => new Date(b.startDate) - new Date(a.startDate));
+      }
+
+      setFilteredActivities(filtered);
+      setCurrentPage(1); // Reset to the first page whenever filters change
+    },
+    [searchQuery, selectedTag, sortOption, statusFilter, startDate]
+  );
+
   useEffect(() => {
     axios.get("/data/activities.json").then((response) => {
       const data = response.data;
@@ -23,48 +63,11 @@ const Activities = () => {
       setFilteredActivities(data); // Initially set filtered activities to all activities
       filterActivities(data);
     });
-  }, []);
+  }, [filterActivities]);
 
   useEffect(() => {
     filterActivities(activities); // Pass the activities state to filterActivities
-  }, [searchQuery, selectedTag, sortOption, statusFilter, startDate]);
-
-  const filterActivities = (activitiesData) => {
-    let filtered = activitiesData;
-
-    if (searchQuery) {
-      filtered = filtered.filter((activity) => activity.title.toLowerCase().includes(searchQuery.toLowerCase()));
-    }
-
-    if (selectedTag) {
-      filtered = filtered.filter((activity) => activity.tags.some((tag) => tag.name === selectedTag));
-    }
-
-    if (statusFilter) {
-      filtered = filtered.filter((activity) => activity.status === statusFilter);
-    }
-
-    if (startDate) {
-      const selectedDate = new Date(startDate);
-      filtered = filtered.filter((activity) => {
-        const activityDate = new Date(activity.startDate);
-        return activityDate.getDate() === selectedDate.getDate() && activityDate.getMonth() === selectedDate.getMonth() && activityDate.getFullYear() === selectedDate.getFullYear();
-      });
-    }
-
-    if (sortOption === "name-asc") {
-      filtered.sort((a, b) => a.title.localeCompare(b.title));
-    } else if (sortOption === "name-desc") {
-      filtered.sort((a, b) => b.title.localeCompare(a.title));
-    } else if (sortOption === "date-asc") {
-      filtered.sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
-    } else if (sortOption === "date-desc") {
-      filtered.sort((a, b) => new Date(b.startDate) - new Date(a.startDate));
-    }
-
-    setFilteredActivities(filtered);
-    setCurrentPage(1); // Reset to the first page whenever filters change
-  };
+  }, [activities, filterActivities]);
 
   // Calculate the activities for the current page
   const indexOfLastActivity = currentPage * activitiesPerPage;
@@ -164,6 +167,7 @@ const Activities = () => {
             {pageNumbers.map((number) => (
               <li key={number} className={`page-item ${number === currentPage ? "active" : ""}`}>
                 <a
+                  href="/"
                   className="page-link"
                   onClick={(e) => {
                     e.preventDefault();
