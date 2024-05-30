@@ -5,76 +5,76 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer class="footer mt-5">
+    <footer className="footer mt-5">
       <hr className="w-75 container-fluid justify-content-center" />
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-2">
             <h5>{t("community")}</h5>
-            <ul class="footer-links">
+            <ul className="footer-links">
               <li>
-                <a class="link">{t("activities")}</a>
+                <a className="link">{t("activities")}</a>
               </li>
               <li>
-                <a class="link">{t("volunteering")}</a>
+                <a className="link">{t("volunteering")}</a>
               </li>
               <li>
-                <a class="link">{t("initiatives")}</a>
+                <a className="link">{t("initiatives")}</a>
               </li>
               <li>
-                <a class="link">{t("resources")}</a>
+                <a className="link">{t("resources")}</a>
               </li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div className="col-md-2">
             <h5>{t("hoge-vucht")}</h5>
-            <ul class="footer-links">
+            <ul className="footer-links">
               <li>
-                <a class="link">{t("neighbourhood-point")}</a>
+                <a className="link">{t("neighbourhood-point")}</a>
               </li>
               <li>
-                <a class="link">{t("history")}</a>
+                <a className="link">{t("history")}</a>
               </li>
               <li>
-                <a class="link">{t("news")}</a>
+                <a className="link">{t("news")}</a>
               </li>
               <li>
-                <a class="link">{t("location")}</a>
+                <a className="link">{t("location")}</a>
               </li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div className="col-md-2">
             <h5>{t("doughnut")}</h5>
-            <ul class="footer-links">
+            <ul className="footer-links">
               <li>
-                <a class="link">{t("about")}</a>
+                <a className="link">{t("about")}</a>
               </li>
               <li>
-                <a class="link">{t("principles")}</a>
+                <a className="link">{t("principles")}</a>
               </li>
               <li>
-                <a class="link">{t("resources")}</a>
+                <a className="link">{t("resources")}</a>
               </li>
               <li>
-                <a class="link">{t("tools")}</a>
+                <a className="link">{t("tools")}</a>
               </li>
             </ul>
           </div>
-          <div class="col-md-2">
+          <div className="col-md-2">
             <h5>{t("legal")}</h5>
-            <ul class="footer-links">
+            <ul className="footer-links">
               <li>
-                <a class="link">{t("legal-disclaimer")}</a>
+                <a className="link">{t("legal-disclaimer")}</a>
               </li>
               <li>
-                <a class="link">{t("privacy-policy")}</a>
+                <a className="link">{t("privacy-policy")}</a>
               </li>
               <li>
-                <a class="link">{t("terms-of-service")}</a>
+                <a className="link">{t("terms-of-service")}</a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
+          <div className="col-md-4">
             <h5>{t("latest-news")}</h5>
             <div className="footer-newsletter row">
               <div className="col-md-10">
@@ -87,7 +87,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div class="text-center copyright bg-hoge-vucht txt-white">© 2024 Copyright: Hoge Vucht Donut</div>
+      <div className="text-center copyright bg-hoge-vucht txt-white">© 2024 Copyright: Hoge Vucht Donut</div>
     </footer>
   );
 }

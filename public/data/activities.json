@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "title": "Activiteit 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image1.jpg",
+    "startDate": "2017-01-01",
+    "tags": ["tag1"],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut1.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Activiteit 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image2.jpg",
+    "startDate": "2017-01-02",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut2.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Activiteit 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image3.jpg",
+    "startDate": "2017-01-03",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "cancelled",
+    "doughnutImage": "http://example.com/doughnut3.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Activiteit 4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image4.jpg",
+    "startDate": "2017-01-04",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "finished",
+    "doughnutImage": "http://example.com/doughnut4.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Activiteit 5",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image5.jpg",
+    "startDate": "2017-01-05",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut5.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Activiteit 6",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image6.jpg",
+    "startDate": "2017-01-06",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut6.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Activiteit 7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image1.jpg",
+    "startDate": "2017-01-01",
+    "tags": ["tag1"],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut1.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Activiteit 8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image2.jpg",
+    "startDate": "2017-01-02",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut2.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Activiteit 9",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image3.jpg",
+    "startDate": "2017-01-03",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "cancelled",
+    "doughnutImage": "http://example.com/doughnut3.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Activiteit 10",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image4.jpg",
+    "startDate": "2017-01-04",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "finished",
+    "doughnutImage": "http://example.com/doughnut4.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Activiteit 11",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image5.jpg",
+    "startDate": "2017-01-05",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut5.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Activiteit 12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+    "imageUrl": "http://example.com/image6.jpg",
+    "startDate": "2017-01-06",
+    "tags": ["tag1", "tag2", "tag3"],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut6.jpg",
+    "address": {
+      "street": "Example Street",
+      "number": "123",
+      "postal": "12345",
+      "city": "Example City"
+    },
+    "contactInfo": {
+      "name": "Example Name",
+      "organisation": "Example Organisation",
+      "email": "example@example.com",
+      "phone": "123-456-7890"
+    }
+  }
+]

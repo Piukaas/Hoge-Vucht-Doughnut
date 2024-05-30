@@ -11,7 +11,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-hoge-vucht fixed-top txt-white">
       <div className="container-fluid justify-content-start ml-10">
         <Link className="navbar-brand" to="/">
-          <i class="bi bi-person-circle mr-5"></i>
+          <i className="bi bi-person-circle mr-5"></i>
           Thijs
         </Link>
         <LanguageDropdown />
