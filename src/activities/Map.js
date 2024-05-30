@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -25,7 +25,7 @@ const Map = ({ address }) => {
 
   const [location, setLocation] = React.useState(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const fetchLocation = async () => {
       const loc = await geocodeAddress(address);
       setLocation(loc);

@@ -13,16 +13,24 @@ function Footer() {
             <h5>{t("community")}</h5>
             <ul className="footer-links">
               <li>
-                <a className="link">{t("activities")}</a>
+                <a href="/" className="link">
+                  {t("activities")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("volunteering")}</a>
+                <a href="/" className="link">
+                  {t("volunteering")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("initiatives")}</a>
+                <a href="/" className="link">
+                  {t("initiatives")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("resources")}</a>
+                <a href="/" className="link">
+                  {t("resources")}
+                </a>
               </li>
             </ul>
           </div>
@@ -30,16 +38,24 @@ function Footer() {
             <h5>{t("hoge-vucht")}</h5>
             <ul className="footer-links">
               <li>
-                <a className="link">{t("neighbourhood-point")}</a>
+                <a href="/" className="link">
+                  {t("neighbourhood-point")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("history")}</a>
+                <a href="/" className="link">
+                  {t("history")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("news")}</a>
+                <a href="/" className="link">
+                  {t("news")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("location")}</a>
+                <a href="/" className="link">
+                  {t("location")}
+                </a>
               </li>
             </ul>
           </div>
@@ -47,16 +63,24 @@ function Footer() {
             <h5>{t("doughnut")}</h5>
             <ul className="footer-links">
               <li>
-                <a className="link">{t("about")}</a>
+                <a href="/" className="link">
+                  {t("about")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("principles")}</a>
+                <a href="/" className="link">
+                  {t("principles")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("resources")}</a>
+                <a href="/" className="link">
+                  {t("resources")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("tools")}</a>
+                <a href="/" className="link">
+                  {t("tools")}
+                </a>
               </li>
             </ul>
           </div>
@@ -64,13 +88,19 @@ function Footer() {
             <h5>{t("legal")}</h5>
             <ul className="footer-links">
               <li>
-                <a className="link">{t("legal-disclaimer")}</a>
+                <a href="/" className="link">
+                  {t("legal-disclaimer")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("privacy-policy")}</a>
+                <a href="/" className="link">
+                  {t("privacy-policy")}
+                </a>
               </li>
               <li>
-                <a className="link">{t("terms-of-service")}</a>
+                <a href="/" className="link">
+                  {t("terms-of-service")}
+                </a>
               </li>
             </ul>
           </div>

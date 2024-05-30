@@ -1,9 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
 
 const Activities = () => {
-  const { t } = useTranslation();
   const [activities, setActivities] = useState([]);
   const [filteredActivities, setFilteredActivities] = useState([]);
   const [tags, setTags] = useState([]);
