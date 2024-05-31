@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState, useCallback } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Activities = () => {
   const { t } = useTranslation();
@@ -146,7 +147,7 @@ const Activities = () => {
         <div className="row">
           {currentActivities.length > 0 ? (
             currentActivities.map((activity) => (
-              <div key={activity.id} className="col-md-4 mb-4">
+              <Link className="card-box col-md-4 mb-4" key={activity.id} to={{ pathname: `${activity.id}` }}>
                 <div className="feature-box">
                   <img src={activity.imageUrl} alt={activity.title} className="img-fluid mb-2" />
                   <h3 className="align-center">{activity.title}</h3>
@@ -188,7 +189,7 @@ const Activities = () => {
                       : null}
                   </div>
                 </div>
-              </div>
+              </Link>
             ))
           ) : (
             <div className="col-12">

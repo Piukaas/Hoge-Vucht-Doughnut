@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { useTranslation } from "react-i18next";
 
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -11,6 +12,7 @@ L.Icon.Default.mergeOptions({
 });
 
 const Map = ({ address }) => {
+  const { t } = useTranslation();
   const geocodeAddress = async (address) => {
     const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${address}`);
     const data = await response.json();
@@ -35,11 +37,11 @@ const Map = ({ address }) => {
   }, [address]);
 
   if (!location) {
-    return <div>Loading map...</div>;
+    return <div>{t("noAddressFound")}</div>;
   }
 
   return (
-    <MapContainer center={[location.lat, location.lon]} zoom={14} className="map">
+    <MapContainer center={[location.lat, location.lon]} zoom={14} className="map no-user-select">
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' />
       <Marker position={[location.lat, location.lon]}>
         <Popup>{address}</Popup>

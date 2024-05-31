@@ -26,7 +26,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut1.jpg",
     "address": {
       "street": "Zadelmakerstraat",
       "number": "50",
@@ -63,7 +62,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut2.jpg",
     "address": {
       "street": "Moerwijk",
       "number": "67",
@@ -96,7 +94,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut3.jpg",
     "address": {
       "street": "Rijnauwenstraat",
       "number": "8",
@@ -133,7 +130,6 @@
       }
     ],
     "status": "cancelled",
-    "doughnutImage": "http://example.com/doughnut4.jpg",
     "address": {
       "street": "Kroeten",
       "number": "42",
@@ -178,7 +174,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut5.jpg",
     "address": {
       "street": "Doornboslaan",
       "number": "33",
@@ -215,7 +210,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut6.jpg",
     "address": {
       "street": "Johan Willem Frisolaan",
       "number": "21",
@@ -248,7 +242,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut7.jpg",
     "address": {
       "street": "Teteringsedijk",
       "number": "78",
@@ -289,7 +282,6 @@
       }
     ],
     "status": "finished",
-    "doughnutImage": "http://example.com/doughnut8.jpg",
     "address": {
       "street": "Balkenierstraat",
       "number": "45",
@@ -326,7 +318,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut9.jpg",
     "address": {
       "street": "Hoge Steenweg",
       "number": "10",
@@ -363,7 +354,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut10.jpg",
     "address": {
       "street": "Griffioenlaan",
       "number": "15",
@@ -408,7 +398,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut11.jpg",
     "address": {
       "street": "Doelen",
       "number": "20",
@@ -445,7 +434,6 @@
       }
     ],
     "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut12.jpg",
     "address": {
       "street": "Haagweg",
       "number": "5",

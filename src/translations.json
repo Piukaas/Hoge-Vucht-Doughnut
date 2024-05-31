@@ -250,5 +250,41 @@
   "noActivitiesFound": {
     "en": "No activities found",
     "nl": "Geen activiteiten gevonden"
+  },
+  "noInitiativesFound": {
+    "en": "No initiatives found",
+    "nl": "Geen initiatieven gevonden"
+  },
+  "noActivityFound": {
+    "en": "No activity found",
+    "nl": "Geen activiteit gevonden"
+  },
+  "noAddressFound": {
+    "en": "No address found",
+    "nl": "Geen adres gevonden"
+  },
+  "address": {
+    "en": "Address",
+    "nl": "Adres"
+  },
+  "contactInformation": {
+    "en": "Contact Information",
+    "nl": "Contactinformatie"
+  },
+  "name": {
+    "en": "Name: ",
+    "nl": "Naam: "
+  },
+  "email": {
+    "en": "E-mail: ",
+    "nl": "E-mail: "
+  },
+  "phone": {
+    "en": "Phone: ",
+    "nl": "Telefoon: "
+  },
+  "initiative": {
+    "en": "Initiative: ",
+    "nl": "Initiatief: "
   }
 }
