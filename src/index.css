@@ -316,6 +316,10 @@ a:hover {
   height: 400px;
 }
 
+.pagination {
+  justify-content: start !important;
+}
+
 .page-item.active .page-link {
   color: var(--white);
   border: var(--accent);
