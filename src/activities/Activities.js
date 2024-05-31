@@ -1,7 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState, useCallback } from "react";
+import { useTranslation } from "react-i18next";
 
 const Activities = () => {
+  const { t } = useTranslation();
   const [activities, setActivities] = useState([]);
   const [filteredActivities, setFilteredActivities] = useState([]);
   const [tags, setTags] = useState([]);
@@ -49,7 +51,7 @@ const Activities = () => {
       }
 
       setFilteredActivities(filtered);
-      setCurrentPage(1); // Reset to the first page whenever filters change
+      setCurrentPage(1);
     },
     [searchQuery, selectedTag, sortOption, statusFilter, startDate]
   );
@@ -60,21 +62,19 @@ const Activities = () => {
       setActivities(data);
       const uniqueTags = [...new Set(data.flatMap((activity) => (Array.isArray(activity.tags) ? activity.tags.map((tag) => tag.name) : [])))];
       setTags(uniqueTags);
-      setFilteredActivities(data); // Initially set filtered activities to all activities
+      setFilteredActivities(data);
       filterActivities(data);
     });
   }, [filterActivities]);
 
   useEffect(() => {
-    filterActivities(activities); // Pass the activities state to filterActivities
+    filterActivities(activities);
   }, [activities, filterActivities]);
 
-  // Calculate the activities for the current page
   const indexOfLastActivity = currentPage * activitiesPerPage;
   const indexOfFirstActivity = indexOfLastActivity - activitiesPerPage;
   const currentActivities = filteredActivities.slice(indexOfFirstActivity, indexOfLastActivity);
 
-  // Calculate the page numbers for the pagination
   const pageNumbers = [];
   for (let i = 1; i <= Math.ceil(filteredActivities.length / activitiesPerPage); i++) {
     pageNumbers.push(i);
@@ -84,10 +84,23 @@ const Activities = () => {
     setCurrentPage(pageNumber);
   };
 
+  function getBadgeClass(status) {
+    switch (status) {
+      case "upcoming":
+        return "badge-success";
+      case "cancelled":
+        return "badge-danger";
+      case "finished":
+        return "badge-warning";
+      default:
+        return "badge-primary";
+    }
+  }
+
   return (
     <section>
       <div className="container">
-        <h2 className="text-center">Feature Heading</h2>
+        <h2 className="text-center">{t("activities")}</h2>
         <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.</p>
 
         <div className="filter-row mb-4">
@@ -101,7 +114,7 @@ const Activities = () => {
                 <option value="">Filter by tag</option>
                 {tags.map((tag) => (
                   <option key={tag} value={tag}>
-                    {tag}
+                    {t(tag)}
                   </option>
                 ))}
               </select>
@@ -109,9 +122,9 @@ const Activities = () => {
             <div className="col-md-2 mb-3">
               <select className="form-control" value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)}>
                 <option value="">Filter by status</option>
-                <option value="upcoming">Upcoming</option>
-                <option value="cancelled">Cancelled</option>
-                <option value="finished">Finished</option>
+                <option value="upcoming">{t("upcoming")}</option>
+                <option value="cancelled">{t("cancelled")}</option>
+                <option value="finished">{t("finished")}</option>
               </select>
             </div>
             <div className="col-md-2 mb-3">
@@ -136,22 +149,44 @@ const Activities = () => {
               <div key={activity.id} className="col-md-4 mb-4">
                 <div className="feature-box">
                   <img src={activity.imageUrl} alt={activity.title} className="img-fluid mb-2" />
-                  <h3>
-                    {activity.title} - <span className={`status ${activity.status}`}>{activity.status}</span>
-                  </h3>
+                  <h3 className="align-center">{activity.title}</h3>
                   <div className="tags">
+                    <span className={`badge ${getBadgeClass(activity.status)} mr-5`}>{t(activity.status)}</span>-
                     {Array.isArray(activity.tags)
-                      ? activity.tags.map((tag) => (
-                          <span key={tag.name} className="badge badge-primary mr-1" style={{ background: "blue" }}>
-                            {tag.name}
-                          </span>
-                        ))
+                      ? activity.tags
+                          .filter((tag) => tag.type === "targetAudience")
+                          .map((tag) => (
+                            <span key={tag.name} className="badge badge-secondary ml-5">
+                              {tag.name === "children" ? (
+                                <i className="fa fa-baby"></i>
+                              ) : tag.name === "youth" ? (
+                                <i className="fa fa-children"></i>
+                              ) : tag.name === "adults" ? (
+                                <i className="fa fa-user"></i>
+                              ) : tag.name === "seniors" ? (
+                                <i className="fa fa-person-cane"></i>
+                              ) : tag.name === "weelchairAccessible" ? (
+                                <i className="fa fa-wheelchair"></i>
+                              ) : null}
+                            </span>
+                          ))
                       : null}
                   </div>
-                  <p>{activity.description}</p>
+                  <p className="mt-1">{activity.description}</p>
                   <p>
                     <strong>Start Date:</strong> {new Date(activity.startDate).toLocaleDateString("en-GB", { day: "2-digit", month: "2-digit", year: "numeric" })}
                   </p>
+                  <div className="tags">
+                    {Array.isArray(activity.tags)
+                      ? activity.tags
+                          .filter((tag) => tag.type === "activityType")
+                          .map((tag) => (
+                            <span key={tag.name} className="badge badge-primary mr-5">
+                              {t(tag.name)}
+                            </span>
+                          ))
+                      : null}
+                  </div>
                 </div>
               </div>
             ))

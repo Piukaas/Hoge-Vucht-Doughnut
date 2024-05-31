@@ -174,5 +174,37 @@
   "viewData": {
     "en": "View Data",
     "nl": "Bekijk Gegevens"
+  },
+  "upcoming": {
+    "en": "Upcoming",
+    "nl": "Aankomend"
+  },
+  "cancelled": {
+    "en": "Cancelled",
+    "nl": "Geannuleerd"
+  },
+  "finished": {
+    "en": "Finished",
+    "nl": "Voltooid"
+  },
+  "children": {
+    "en": "Children",
+    "nl": "Kinderen"
+  },
+  "youth": {
+    "en": "Youth",
+    "nl": "Jeugd"
+  },
+  "adults": {
+    "en": "Adults",
+    "nl": "Volwassenen"
+  },
+  "seniors": {
+    "en": "Seniors",
+    "nl": "Ouderen"
+  },
+  "weelchairAccessible": {
+    "en": "Wheelchair Accessible",
+    "nl": "Rolstoeltoegankelijk"
   }
 }

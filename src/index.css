@@ -16,6 +16,12 @@
   --background: #e11962;
   --white: #f9f4fa;
   --black: #000;
+  --primary: #fe3b7d;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
 }
 
 body {
@@ -162,6 +168,40 @@ a:hover {
 
 .no-user-select {
   user-select: none;
+}
+
+.badge {
+  height: fit-content;
+}
+
+.badge-primary {
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 25px;
+}
+
+.badge-secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+  border-radius: 25px;
+}
+
+.badge-success {
+  background-color: var(--success);
+  color: var(--white);
+  border-radius: 25px;
+}
+
+.badge-warning {
+  background-color: var(--warning);
+  color: var(--white);
+  border-radius: 25px;
+}
+
+.badge-danger {
+  background-color: var(--danger);
+  color: var(--white);
+  border-radius: 25px;
 }
 
 /* Navbar */

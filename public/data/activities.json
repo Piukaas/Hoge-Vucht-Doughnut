@@ -1,350 +1,462 @@
 [
   {
     "id": 1,
-    "title": "Activiteit 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://a.storyblok.com/f/112937/568x464/82f66c3a21/all_the_english-_football_terms_you_need_to_know_blog-hero-low.jpg/m/620x0/filters:quality(70)/",
-    "startDate": "2017-01-01",
-    "startTime": "12:00",
-    "endTime": "14:00",
+    "title": "Voetbaltoernooi voor de Jeugd",
+    "description": "Een spannend voetbaltoernooi voor kinderen en jongeren in de wijk.",
+    "imageUrl": "https://www.miv-assalam.nl/wp-content/uploads/2019/03/MIV-FLYER2-360x180.png",
+    "startDate": "2024-06-01",
+    "startTime": "10:00",
+    "endTime": "15:00",
     "tags": [
       {
-        "name": "Tag 1",
+        "name": "children",
+        "type": "targetAudience"
+      },
+      {
+        "name": "youth",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Voetballen",
+        "type": "activityType"
+      },
+      {
+        "name": "weelchairAccessible",
         "type": "targetAudience"
       }
     ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut1.jpg",
     "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
+      "street": "Zadelmakerstraat",
+      "number": "50",
+      "postal": "4822 PA",
+      "city": "Breda"
     },
     "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
+      "name": "Jan Jansen",
+      "organisation": "Jeugdvereniging Breda",
+      "email": "jan.jansen@voorbeeld.com",
+      "phone": "0612345678"
     }
   },
   {
     "id": 2,
-    "title": "Activiteit 2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/ngdjbafv3twathukjbq2",
-    "startDate": "2017-01-02",
-    "startTime": "12:00",
-    "endTime": "14:00",
+    "title": "Kookworkshop voor Senioren",
+    "description": "Leer gezonde en lekkere recepten koken tijdens deze workshop.",
+    "imageUrl": "https://cdn1.emesa-static.com/uploads/Kookworkshop-groep-VakantieVeilingen.jpg",
+    "startDate": "2024-06-10",
+    "startTime": "14:00",
+    "endTime": "17:00",
     "tags": [
       {
-        "name": "Tag 2",
+        "name": "seniors",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Eten",
+        "type": "activityType"
+      },
+      {
+        "name": "Gezond koken",
         "type": "activityType"
       }
     ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut2.jpg",
     "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
+      "street": "Moerwijk",
+      "number": "67",
+      "postal": "4826 HS",
+      "city": "Breda"
     },
     "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
+      "name": "Pietje Puk",
+      "organisation": "Seniorenvereniging Breda",
+      "email": "pietje.puk@voorbeeld.com",
+      "phone": "0623456789"
     }
   },
   {
     "id": 3,
-    "title": "Activiteit 3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/ngdjbafv3twathukjbq2",
-    "startDate": "2017-01-03",
-    "startTime": "12:00",
-    "endTime": "14:00",
+    "title": "Creatieve Middag voor Kinderen",
+    "description": "Een middag vol knutselen en creatieve activiteiten voor kinderen.",
+    "imageUrl": "https://www.inlooppuntoisterwijk.nl/wp-content/uploads/2019/02/Creatief-Inlooppunt-Oisterwijk-1.jpg",
+    "startDate": "2024-07-01",
+    "startTime": "13:00",
+    "endTime": "16:00",
     "tags": [
       {
-        "name": "Tag 1",
+        "name": "children",
         "type": "targetAudience"
+      },
+      {
+        "name": "Knutselen",
+        "type": "activityType"
       }
     ],
-    "status": "cancelled",
+    "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut3.jpg",
     "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
+      "street": "Rijnauwenstraat",
+      "number": "8",
+      "postal": "4826 AT",
+      "city": "Breda"
     },
     "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
+      "name": "Marie de Vries",
+      "organisation": "Kinderopvang Breda",
+      "email": "marie.devries@voorbeeld.com",
+      "phone": "0634567890"
     }
   },
   {
     "id": 4,
-    "title": "Activiteit 4",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/ngdjbafv3twathukjbq2",
-    "startDate": "2017-01-04",
-    "startTime": "12:00",
-    "endTime": "14:00",
+    "title": "Gezellige Buurtbarbecue",
+    "description": "Kom naar de buurtbarbecue en leer je buren kennen onder het genot van lekker eten.",
+    "imageUrl": "https://static.bbqengourmet.nl/_1920x1280_q100_/bbq-gourmet./header-4-1697534564.jpg",
+    "startDate": "2024-07-15",
+    "startTime": "17:00",
+    "endTime": "21:00",
     "tags": [
       {
-        "name": "Tag 1",
+        "name": "adults",
         "type": "targetAudience"
-      }
-    ],
-    "status": "finished",
-    "doughnutImage": "http://example.com/doughnut4.jpg",
-    "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
-    },
-    "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
-    }
-  },
-  {
-    "id": 5,
-    "title": "Activiteit 5",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/ngdjbafv3twathukjbq2",
-    "startDate": "2017-01-05",
-    "startTime": "12:00",
-    "endTime": "14:00",
-    "tags": [
+      },
       {
-        "name": "Tag 1",
-        "type": "targetAudience"
-      }
-    ],
-    "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut5.jpg",
-    "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
-    },
-    "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
-    }
-  },
-  {
-    "id": 6,
-    "title": "Activiteit 6",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg",
-    "startDate": "2017-01-06",
-    "startTime": "12:00",
-    "endTime": "14:00",
-    "tags": [
+        "name": "Eten",
+        "type": "activityType"
+      },
       {
-        "name": "Tag 1",
-        "type": "targetAudience"
-      }
-    ],
-    "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut6.jpg",
-    "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
-    },
-    "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
-    }
-  },
-  {
-    "id": 7,
-    "title": "Activiteit 7",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg",
-    "startDate": "2017-01-01",
-    "startTime": "12:00",
-    "endTime": "14:00",
-    "tags": [
-      {
-        "name": "Tag 1",
-        "type": "targetAudience"
-      }
-    ],
-    "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut1.jpg",
-    "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
-    },
-    "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
-    }
-  },
-  {
-    "id": 8,
-    "title": "Activiteit 8",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg",
-    "startDate": "2017-01-02",
-    "startTime": "12:00",
-    "endTime": "14:00",
-    "tags": [
-      {
-        "name": "Tag 1",
-        "type": "targetAudience"
-      }
-    ],
-    "status": "upcoming",
-    "doughnutImage": "http://example.com/doughnut2.jpg",
-    "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
-    },
-    "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
-    }
-  },
-  {
-    "id": 9,
-    "title": "Activiteit 9",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg",
-    "startDate": "2017-01-03",
-    "startTime": "12:00",
-    "endTime": "14:00",
-    "tags": [
-      {
-        "name": "Tag 1",
+        "name": "weelchairAccessible",
         "type": "targetAudience"
       }
     ],
     "status": "cancelled",
-    "doughnutImage": "http://example.com/doughnut3.jpg",
-    "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
-    },
-    "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
-    }
-  },
-  {
-    "id": 10,
-    "title": "Activiteit 10",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg",
-    "startDate": "2017-01-04",
-    "startTime": "12:00",
-    "endTime": "14:00",
-    "tags": [
-      {
-        "name": "Tag 1",
-        "type": "targetAudience"
-      }
-    ],
-    "status": "finished",
     "doughnutImage": "http://example.com/doughnut4.jpg",
     "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
+      "street": "Kroeten",
+      "number": "42",
+      "postal": "4823 BN",
+      "city": "Breda"
     },
     "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
+      "name": "Klaas Klaassen",
+      "organisation": "Buurtvereniging Hoge Vucht",
+      "email": "klaas.klaassen@voorbeeld.com",
+      "phone": "0645678901"
     }
   },
   {
-    "id": 11,
-    "title": "Activiteit 11",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg",
-    "startDate": "2017-01-05",
-    "startTime": "12:00",
-    "endTime": "14:00",
+    "id": 5,
+    "title": "Wandeltocht voor Alle Leeftijden",
+    "description": "Een gezellige wandeltocht door de wijk voor jong en oud.",
+    "imageUrl": "https://www.wandel.nl/media/25yd430o/cid4146_wandelaars-afstand.jpg?anchor=center&mode=crop&width=1280&height=640&rnd=132810425522070000&quality=90&format=jpg",
+    "startDate": "2024-08-01",
+    "startTime": "10:00",
+    "endTime": "12:00",
     "tags": [
       {
-        "name": "Tag 1",
+        "name": "children",
+        "type": "targetAudience"
+      },
+      {
+        "name": "youth",
+        "type": "targetAudience"
+      },
+      {
+        "name": "adults",
+        "type": "targetAudience"
+      },
+      {
+        "name": "seniors",
+        "type": "targetAudience"
+      },
+      {
+        "name": "weelchairAccessible",
         "type": "targetAudience"
       }
     ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut5.jpg",
     "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
+      "street": "Doornboslaan",
+      "number": "33",
+      "postal": "4826 AA",
+      "city": "Breda"
     },
     "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
+      "name": "Lisa de Leeuw",
+      "organisation": "Wandelclub Breda",
+      "email": "lisa.deleeuw@voorbeeld.com",
+      "phone": "0656789012"
     }
   },
   {
-    "id": 12,
-    "title": "Activiteit 12",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
-    "imageUrl": "https://a.storyblok.com/f/112937/568x464/82f66c3a21/all_the_english-_football_terms_you_need_to_know_blog-hero-low.jpg/m/620x0/filters:quality(70)/",
-    "startDate": "2017-01-06",
-    "startTime": "12:00",
-    "endTime": "14:00",
+    "id": 6,
+    "title": "Workshop Duurzaamheid",
+    "description": "Leer alles over duurzaamheid en hoe je jouw steentje kunt bijdragen.",
+    "imageUrl": "https://admin.dezwijger.nl/wp-content/uploads/2021/08/TimeTable_DEF.jpg",
+    "startDate": "2024-08-10",
+    "startTime": "14:00",
+    "endTime": "17:00",
     "tags": [
       {
-        "name": "Tag 1",
+        "name": "adults",
         "type": "targetAudience"
+      },
+      {
+        "name": "seniors",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Milieu",
+        "type": "activityType"
       }
     ],
     "status": "upcoming",
     "doughnutImage": "http://example.com/doughnut6.jpg",
     "address": {
-      "street": "Example Street",
-      "number": "123",
-      "postal": "12345",
-      "city": "Example City"
+      "street": "Johan Willem Frisolaan",
+      "number": "21",
+      "postal": "4823 RK",
+      "city": "Breda"
     },
     "contactInfo": {
-      "name": "Example Name",
-      "organisation": "Example Organisation",
-      "email": "example@example.com",
-      "phone": "123-456-7890"
+      "name": "Emma van Dam",
+      "organisation": "Duurzaam Breda",
+      "email": "emma.vandam@voorbeeld.com",
+      "phone": "0667890123"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Theatervoorstelling voor Kinderen",
+    "description": "Geniet van een leuke en leerzame theatervoorstelling speciaal voor kinderen.",
+    "imageUrl": "https://www.vanhoorne.com/media/theatervoorstelling.jpg?imageType=original&format=image&updatedAt=2022_11_09_10_15_19",
+    "startDate": "2024-09-01",
+    "startTime": "15:00",
+    "endTime": "16:30",
+    "tags": [
+      {
+        "name": "children",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Cultuur",
+        "type": "activityType"
+      }
+    ],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut7.jpg",
+    "address": {
+      "street": "Teteringsedijk",
+      "number": "78",
+      "postal": "4817 ML",
+      "city": "Breda"
+    },
+    "contactInfo": {
+      "name": "Anke van der Meer",
+      "organisation": "Kindertheater Breda",
+      "email": "anke.vandermeer@voorbeeld.com",
+      "phone": "0678901234"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Fietstocht door de Wijk",
+    "description": "Verken de wijk op de fiets tijdens deze gezellige fietstocht.",
+    "imageUrl": "https://www.hogeveluwe.nl/system/activities/image_1s/000/000/214/zoom/HJO9160403-0022sp.jpg?1489741088",
+    "startDate": "2024-09-15",
+    "startTime": "11:00",
+    "endTime": "13:00",
+    "tags": [
+      {
+        "name": "youth",
+        "type": "targetAudience"
+      },
+      {
+        "name": "adults",
+        "type": "targetAudience"
+      },
+      {
+        "name": "weelchairAccessible",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Sport",
+        "type": "activityType"
+      }
+    ],
+    "status": "finished",
+    "doughnutImage": "http://example.com/doughnut8.jpg",
+    "address": {
+      "street": "Balkenierstraat",
+      "number": "45",
+      "postal": "4834 EA",
+      "city": "Breda"
+    },
+    "contactInfo": {
+      "name": "Bart de Koning",
+      "organisation": "Fietsclub Breda",
+      "email": "bart.dekoning@voorbeeld.com",
+      "phone": "0689012345"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Zomerkamp voor Kinderen",
+    "description": "Een week vol avonturen en plezier tijdens het zomerkamp.",
+    "imageUrl": "https://www.pharmamarket.be/media/wysiwyg/blog/BLOG-Zomerkamp.jpg?v=1",
+    "startDate": "2024-07-20",
+    "startTime": "09:00",
+    "endTime": "17:00",
+    "tags": [
+      {
+        "name": "children",
+        "type": "targetAudience"
+      },
+      {
+        "name": "weelchairAccessible",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Kamperen",
+        "type": "activityType"
+      }
+    ],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut9.jpg",
+    "address": {
+      "street": "Hoge Steenweg",
+      "number": "10",
+      "postal": "4817 BM",
+      "city": "Breda"
+    },
+    "contactInfo": {
+      "name": "Laura de Boer",
+      "organisation": "Jeugdkamp Breda",
+      "email": "laura.deboer@voorbeeld.com",
+      "phone": "0690123456"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Lezing over Gezondheid",
+    "description": "Kom alles te weten over gezondheid en welzijn tijdens deze interessante lezing.",
+    "imageUrl": "https://www.juglenzwaan.nl/wp-content/uploads/2013/11/lezing-300x200.jpg",
+    "startDate": "2024-10-01",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "tags": [
+      {
+        "name": "adults",
+        "type": "targetAudience"
+      },
+      {
+        "name": "seniors",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Gezondheid",
+        "type": "activityType"
+      }
+    ],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut10.jpg",
+    "address": {
+      "street": "Griffioenlaan",
+      "number": "15",
+      "postal": "4817 MA",
+      "city": "Breda"
+    },
+    "contactInfo": {
+      "name": "Tom van Dijk",
+      "organisation": "Gezondheidscentrum Breda",
+      "email": "tom.vandijk@voorbeeld.com",
+      "phone": "0701234567"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Muziekavond voor Jong en Oud",
+    "description": "Een avond vol muziek en gezelligheid voor alle leeftijden.",
+    "imageUrl": "https://www.bsjanbaptist.nl/wp-content/uploads/2018/02/muzieknoten.jpg",
+    "startDate": "2024-10-15",
+    "startTime": "20:00",
+    "endTime": "23:00",
+    "tags": [
+      {
+        "name": "children",
+        "type": "targetAudience"
+      },
+      {
+        "name": "youth",
+        "type": "targetAudience"
+      },
+      {
+        "name": "adults",
+        "type": "targetAudience"
+      },
+      {
+        "name": "seniors",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Muziek",
+        "type": "activityType"
+      }
+    ],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut11.jpg",
+    "address": {
+      "street": "Doelen",
+      "number": "20",
+      "postal": "4813 GR",
+      "city": "Breda"
+    },
+    "contactInfo": {
+      "name": "Eva de Groot",
+      "organisation": "Muziekvereniging Breda",
+      "email": "eva.degroot@voorbeeld.com",
+      "phone": "0712345678"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Kerstmarkt in de Wijk",
+    "description": "Bezoek de gezellige kerstmarkt en geniet van de feestelijke sfeer.",
+    "imageUrl": "https://www.fletcher.nl/data/images/4/2/5/4/0/header.jpg",
+    "startDate": "2024-12-15",
+    "startTime": "12:00",
+    "endTime": "18:00",
+    "tags": [
+      {
+        "name": "adults",
+        "type": "targetAudience"
+      },
+      {
+        "name": "seniors",
+        "type": "targetAudience"
+      },
+      {
+        "name": "Kerst",
+        "type": "activityType"
+      }
+    ],
+    "status": "upcoming",
+    "doughnutImage": "http://example.com/doughnut12.jpg",
+    "address": {
+      "street": "Haagweg",
+      "number": "5",
+      "postal": "4814 GD",
+      "city": "Breda"
+    },
+    "contactInfo": {
+      "name": "Sophie de Bruin",
+      "organisation": "Kerstmarktcommissie Breda",
+      "email": "sophie.debruin@voorbeeld.com",
+      "phone": "0723456789"
     }
   }
 ]
