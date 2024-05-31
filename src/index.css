@@ -354,6 +354,11 @@ img {
   color: var(--black);
 }
 
+/* Doughnut */
+.no-bullets {
+  list-style-type: none;
+}
+
 /* Footer */
 .copyright {
   padding: 10px;

@@ -1,13 +1,27 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import doughnut from "../images/doughnut.jpg";
 import Map from "./Map";
 import { useTranslation } from "react-i18next";
+import { Doughnut } from "react-chartjs-2";
+import { Chart, ArcElement, CategoryScale } from "chart.js";
+
+Chart.register(ArcElement, CategoryScale);
 
 const Details = () => {
   const { t } = useTranslation();
   const { id } = useParams();
   const [activity, setActivity] = useState(null);
+
+  const doughnutData = {
+    labels: ["Red", "Blue", "Yellow"],
+    datasets: [
+      {
+        data: Array.from({ length: 3 }, () => Math.floor(Math.random() * 1000)),
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+        hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+      },
+    ],
+  };
 
   useEffect(() => {
     fetch("/data/activities.json")
@@ -44,8 +58,8 @@ const Details = () => {
           <span className={`badge ${getBadgeClass(activity.status)} mr-5`}>{t(activity.status)}</span>
           <hr />
           <div className="row">
-            <div className="col-md-6">
-              <ul className="tags">
+            <div className="col-md-4">
+              <ul className="tags no-bullets">
                 {Array.isArray(activity.tags)
                   ? activity.tags
                       .filter((tag) => tag.type === "targetAudience")
@@ -71,8 +85,8 @@ const Details = () => {
               </ul>
             </div>
 
-            <div className="col-md-6">
-              <ul className="tags">
+            <div className="col-md-8">
+              <ul className="tags no-bullets">
                 {Array.isArray(activity.tags)
                   ? activity.tags
                       .filter((tag) => tag.type === "activityType")
@@ -86,7 +100,9 @@ const Details = () => {
             </div>
           </div>
         </div>
-        <img className="col-md-4 details-image" src={doughnut} alt="Doughnut" />
+        <div className="col-md-4 details-image">
+          <Doughnut data={doughnutData} />
+        </div>
       </div>
 
       <div className="feature-box col-md-7">

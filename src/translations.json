@@ -294,5 +294,101 @@
   "initiativesDescription": {
     "en": "Discover a range of initiatives that aim to improve our community. From sustainability projects to social programs, there's something for everyone.",
     "nl": "Ontdek een scala aan initiatieven die tot doel hebben onze gemeenschap te verbeteren. Van duurzaamheidsprojecten tot sociale programma's, er is voor elk wat wils."
+  },
+  "aboutDoughnutEconomics": {
+    "en": "About Doughnut Economics",
+    "nl": "Over Donut-economie"
+  },
+  "aboutDescription": {
+    "en": "Meet the Doughnut and the concepts at the heart of Doughnut Economics.",
+    "nl": "Maak kennis met de Donut en de concepten die centraal staan in de Donut-economie."
+  },
+  "introduction": {
+    "en": "Introduction",
+    "nl": "Introductie"
+  },
+  "introductionDescription": {
+    "en": "The Doughnut offers a vision of what it means for humanity to thrive in the 21st century - and Doughnut Economics explores the mindset and ways of thinking needed to get us there. First published in 2012 in an Oxfam report by Kate Raworth, the concept of the Doughnut rapidly gained traction internationally, from the Pope and the UN General Assembly to Extinction Rebellion. Kate's 2017 book, Doughnut Economics: seven ways to think like a 21st century economist, further explored the economic thinking needed to bring humanity into the Doughnut, drawing together insights from diverse economic perspectives in a way that everyone can understand. This 2018 TED talk gives a summary of the book's core messages, and you can read Chapter One here.",
+    "nl": "De Donut biedt een visie op wat het betekent voor de mensheid om te gedijen in de 21e eeuw - en Donut Economics onderzoekt de mindset en de manieren van denken die nodig zijn om daar te komen. Voor het eerst gepubliceerd in 2012 in een Oxfam-rapport van Kate Raworth, kreeg het concept van de Donut snel internationale bekendheid, van de paus en de Algemene Vergadering van de VN tot Extinction Rebellion. Kate's boek uit 2017, Donut Economics: zeven manieren om te denken als een econoom uit de 21e eeuw, verkent verder het economische denken dat nodig is om de mensheid naar de Donut te brengen, waarbij inzichten uit diverse economische perspectieven op een manier worden samengebracht die voor iedereen begrijpelijk is. Deze TED-talk uit 2018 geeft een samenvatting van de kernboodschappen van het boek, en je kunt hier Hoofdstuk Een lezen."
+  },
+  "whatIsTheDoughnut": {
+    "en": "What is the Doughnut?",
+    "nl": "Wat is de Donut?"
+  },
+  "doughnutDescription": {
+    "en": "Think of it as a compass for human prosperity in the 21st century, with the aim of meeting the needs of all people within the means of the living planet. The Doughnut consists of two concentric rings: a social foundation, to ensure that no one is left falling short on life’s essentials, and an ecological ceiling, to ensure that humanity does not collectively overshoot the planetary boundaries that protect Earth's life-supporting systems. Between these two sets of boundaries lies a doughnut-shaped space that is both ecologically safe and socially just: a space in which humanity can thrive. The Doughnut is the core concept at the heart of Doughnut Economics. ",
+    "nl": "Zie het als een kompas voor menselijke welvaart in de 21e eeuw, met als doel te voldoen aan de behoeften van alle mensen binnen de middelen van de levende planeet. De Donut bestaat uit twee concentrische ringen: een sociale basis, om ervoor te zorgen dat niemand tekortschiet aan essentiële levensbehoeften, en een ecologisch plafond, om ervoor te zorgen dat de mensheid niet collectief de planetaire grenzen overschrijdt die de levensondersteunende systemen van de aarde beschermen. Tussen deze twee sets grenzen ligt een donutvormige ruimte die zowel ecologisch veilig als sociaal rechtvaardig is: een ruimte waarin de mensheid kan gedijen. De Donut is het kernconcept dat centraal staat in Donut Economics."
+  },
+  "doughnutPrinciples": {
+    "en": "Doughnut Principles of Practice",
+    "nl": "Donut-principes van praktijk"
+  },
+  "principlesDescription": {
+    "en": "To ensure the integrity of the ideas of Doughnut Economics, we ask that the following principles are followed by any initiative that is working to put the ideas of Doughnut Economics into practice.",
+    "nl": "Om de integriteit van de ideeën van de Donut-economie te waarborgen, vragen we dat de volgende principes worden gevolgd door elk initiatief dat werkt aan het in de praktijk brengen van de ideeën van de Donut-economie."
+  },
+  "principle1Title": {
+    "en": "Embrace the 21st Century Goal",
+    "nl": "Omarm het doel van de 21e eeuw"
+  },
+  "principle1Description": {
+    "en": "Aim to meet the needs of all people within the means of the planet. Seek to align your organisation's purpose, networks, governance, ownership and finance with this goal.",
+    "nl": "Streef ernaar om aan de behoeften van alle mensen te voldoen binnen de middelen van de planeet. Probeer het doel van uw organisatie, netwerken, governance, eigendom en financiën hiermee in overeenstemming te brengen."
+  },
+  "principle2Title": {
+    "en": "See the big picture",
+    "nl": "Zie het grotere geheel"
+  },
+  "principle2Description": {
+    "en": "Recognise the potential roles of the household, the commons, the market and the state – and their many synergies – in transforming economies. Ensure that finance serves the work rather than drives it.",
+    "nl": "Erken de mogelijke rollen van het huishouden, de gemeenschappelijke goederen, de markt en de staat – en hun vele synergieën – bij het transformeren van economieën. Zorg ervoor dat financiën het werk ondersteunen in plaats van sturen."
+  },
+  "principle3Title": {
+    "en": "Nurture human nature",
+    "nl": "Koester menselijke aard"
+  },
+  "principle3Description": {
+    "en": "Promote diversity, participation, collaboration and reciprocity. Strengthen community networks and work with a spirit of high trust. Care for the wellbeing of the team.",
+    "nl": "Bevorder diversiteit, participatie, samenwerking en wederkerigheid. Versterk gemeenschapsnetwerken en werk met een geest van groot vertrouwen. Zorg voor het welzijn van het team."
+  },
+  "principle4Title": {
+    "en": "Think in systems",
+    "nl": "Denk in systemen"
+  },
+  "principle4Description": {
+    "en": "Experiment, learn, adapt, evolve and aim for continuous improvement. Be alert to dynamic effects, feedback loops and tipping points.",
+    "nl": "Experimenteer, leer, pas aan, evolueer en streef naar voortdurende verbetering. Wees alert op dynamische effecten, terugkoppelingslussen en kantelpunten."
+  },
+  "principle5Title": {
+    "en": "Be distributive",
+    "nl": "Wees distributief"
+  },
+  "principle5Description": {
+    "en": "Work in the spirit of open design and share the value created with all who co-created it. Be aware of power and seek to redistribute it to improve equity amongst stakeholders.",
+    "nl": "Werk in de geest van open ontwerp en deel de gecreëerde waarde met allen die eraan hebben bijgedragen. Wees bewust van macht en probeer deze te herverdelen om de rechtvaardigheid onder belanghebbenden te verbeteren."
+  },
+  "principle6Title": {
+    "en": "Be regenerative",
+    "nl": "Wees regeneratief"
+  },
+  "principle6Description": {
+    "en": "Aim to work with and within the cycles of the living world. Be a sharer, repairer, regenerator, steward. Reduce travel, minimize flights, be climate and energy smart.",
+    "nl": "Streef ernaar om te werken met en binnen de cycli van de levende wereld. Wees een deler, hersteller, regenerator, beheerder. Verminder reizen, minimaliseer vluchten, wees slim op het gebied van klimaat en energie."
+  },
+  "principle7Title": {
+    "en": "Aim to thrive rather than to grow",
+    "nl": "Streef naar gedijen in plaats van groeien"
+  },
+  "principle7Description": {
+    "en": "Don’t let growth become a goal in itself. Know when to let the work spread out via others rather than scale up in size.",
+    "nl": "Laat groei niet een doel op zichzelf worden. Weet wanneer u het werk via anderen moet laten verspreiden in plaats van op te schalen in omvang."
+  },
+  "principle8Title": {
+    "en": "Be strategic in practice",
+    "nl": "Wees strategisch in de praktijk"
+  },
+  "principle8Description": {
+    "en": "Go where the energy is - but always ask whose voice is left out. Balance openness with integrity, so that the work spreads without capture. Share back learning and innovation to unleash the power of peer-to-peer inspiration.",
+    "nl": "Ga naar waar de energie is - maar vraag altijd wiens stem er wordt buitengesloten. Balanceer openheid met integriteit, zodat het werk zich verspreidt zonder gevangen te worden. Deel terugkoppeling en innovatie om de kracht van peer-to-peer inspiratie los te laten."
   }
 }
