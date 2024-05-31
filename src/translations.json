@@ -286,5 +286,13 @@
   "initiative": {
     "en": "Initiative: ",
     "nl": "Initiatief: "
+  },
+  "searchByName": {
+    "en": "Search by Name",
+    "nl": "Zoeken op Naam"
+  },
+  "initiativesDescription": {
+    "en": "Discover a range of initiatives that aim to improve our community. From sustainability projects to social programs, there's something for everyone.",
+    "nl": "Ontdek een scala aan initiatieven die tot doel hebben onze gemeenschap te verbeteren. Van duurzaamheidsprojecten tot sociale programma's, er is voor elk wat wils."
   }
 }

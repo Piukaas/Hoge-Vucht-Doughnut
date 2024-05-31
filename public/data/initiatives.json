@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Stichting Voedselbank",
+    "phone": "06-12345678",
+    "email": "info@voedselbank.nl",
+    "imageUrl": "https://www.dekrommespaak.nl/wp-content/uploads/2023/03/maxresdefault.jpg",
+    "goal": "Het verstrekken van voedselpakketten aan mensen in nood."
+  },
+  {
+    "id": 2,
+    "name": "Kinderboerderij De Beestenboel",
+    "phone": "06-23456789",
+    "email": "info@beestenboel.nl",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmWEdXbKYJsK4YC4QgM10Uasf8lz1XiMe7Q&s",
+    "goal": "Het bieden van educatie en plezier aan kinderen door middel van een kinderboerderij."
+  },
+  {
+    "id": 3,
+    "name": "Buurtcentrum De Ontmoeting",
+    "phone": "06-34567890",
+    "email": "info@deontmoeting.nl",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDLm3snNyPDOurmkgqW475mwABHXJpXhg2A&s",
+    "goal": "Het creëren van een ontmoetingsplek voor buurtbewoners waar activiteiten en evenementen plaatsvinden."
+  },
+  {
+    "id": 4,
+    "name": "Repair Café",
+    "phone": "06-45678901",
+    "email": "info@repaircafe.nl",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnsg6EfAAY9tKPf-NWxnlCygaHZv5mPm6UnQ&s",
+    "goal": "Het repareren van kapotte spullen om verspilling tegen te gaan en duurzaamheid te bevorderen."
+  },
+  {
+    "id": 5,
+    "name": "Sportvereniging De Gezonde Stappen",
+    "phone": "06-56789012",
+    "email": "info@gezondestappen.nl",
+    "imageUrl": "https://img.freepik.com/vrije-vector/hand-getekende-platte-voetbal-logo-ontwerpsjabloon_23-2149373252.jpg",
+    "goal": "Het stimuleren van een gezonde levensstijl door middel van sport en beweging."
+  },
+  {
+    "id": 6,
+    "name": "Jeugdtheater De Spotlights",
+    "phone": "06-67890123",
+    "email": "info@despotlights.nl",
+    "imageUrl": "https://jtszo.nl/wp-content/uploads/2018/08/jeugdtheaterzo.jpg",
+    "goal": "Het bieden van theaterlessen en het organiseren van jeugdvoorstellingen."
+  },
+  {
+    "id": 7,
+    "name": "Buurthuis De Vrolijke Bende",
+    "phone": "06-78901234",
+    "email": "info@vrolijkebende.nl",
+    "imageUrl": "https://wezijntransvaal.nl/wp-content/uploads/2017/09/Logo-Buurthuis-800x800_1.jpg",
+    "goal": "Het bevorderen van sociale cohesie in de buurt door middel van activiteiten en ontmoetingen."
+  },
+  {
+    "id": 8,
+    "name": "Milieueducatiecentrum Groene Wereld",
+    "phone": "06-89012345",
+    "email": "info@groenewereld.nl",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9nHYuu3WIvVHcgu56PWOSFB4QDOaF_k52qw&s",
+    "goal": "Het informeren en bewust maken van mensen over duurzaamheid en het milieu."
+  },
+  {
+    "id": 9,
+    "name": "Vrijwilligersorganisatie Helpende Handen",
+    "phone": "06-90123456",
+    "email": "info@helpendehanden.nl",
+    "imageUrl": "https://www.versawelzijn.nl/wp-content/uploads/2022/11/LOGO_VC_versa_20cm_150dpi-1024x717.jpg",
+    "goal": "Het ondersteunen van kwetsbare mensen in de samenleving door middel van vrijwilligerswerk."
+  },
+  {
+    "id": 10,
+    "name": "Jongerenwerk De Toekomst",
+    "phone": "06-01234567",
+    "email": "info@detoekomst.nl",
+    "imageUrl": "https://www.e25.nl/static/img/defaults/teammember-jongerenwerk.jpg",
+    "goal": "Het bieden van begeleiding en activiteiten aan jongeren om hun talenten te ontwikkelen."
+  },
+  {
+    "id": 11,
+    "name": "Seniorenvereniging De Gouden Jaren",
+    "phone": "06-12345678",
+    "email": "info@degoudenjaren.nl",
+    "imageUrl": "https://logovectordl.com/wp-content/uploads/2021/03/vereniging-van-nederlandse-gemeenten-vng-logo-vector.png",
+    "goal": "Het organiseren van activiteiten en bijeenkomsten voor senioren om eenzaamheid tegen te gaan."
+  },
+  {
+    "id": 12,
+    "name": "Cultureel Centrum De Kunstfabriek",
+    "phone": "06-23456789",
+    "email": "info@dekunstfabriek.nl",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw9M0bNbyYdnbbzrL2GlkjwnQAvhLi-nCF0Q&s",
+    "goal": "Het bevorderen van kunst en cultuur door middel van exposities, workshops en voorstellingen."
+  }
+]

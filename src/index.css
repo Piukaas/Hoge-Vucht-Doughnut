@@ -15,6 +15,7 @@
   --accent: #fe3b7d;
   --background: #e11962;
   --white: #f9f4fa;
+  --white2: #fff;
   --black: #000;
   --primary: #fe3b7d;
   --secondary: #6c757d;
@@ -115,6 +116,7 @@ a.page-link:hover {
 }
 
 .form-control {
+  background-color: var(--white2);
   border-radius: 25px;
 }
 
@@ -288,7 +290,7 @@ img {
   padding: 25px;
   box-shadow: 3px 3px 10px var(--black);
   border-radius: 25px;
-  background-color: var(--white);
+  background-color: var(--white2);
   height: 100%;
   margin-left: 5px;
   margin-right: 5px;
