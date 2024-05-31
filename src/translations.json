@@ -206,5 +206,49 @@
   "weelchairAccessible": {
     "en": "Wheelchair Accessible",
     "nl": "Rolstoeltoegankelijk"
+  },
+  "activitiesDescription": {
+    "en": "Explore a variety of activities designed to entertain and engage. From outdoor adventures to indoor creativity, there's something for everyone.",
+    "nl": "Ontdek een verscheidenheid aan activiteiten die zijn ontworpen om te vermaken en te betrekken. Van buitenavonturen tot binnencreaties, er is voor elk wat wils."
+  },
+  "searchByTitle": {
+    "en": "Search by Title",
+    "nl": "Zoeken op Titel"
+  },
+  "filterByTag": {
+    "en": "Filter by Tag",
+    "nl": "Filteren op Tag"
+  },
+  "filterByStatus": {
+    "en": "Filter by Status",
+    "nl": "Filteren op Status"
+  },
+  "sortBy": {
+    "en": "Sort by",
+    "nl": "Sorteren op"
+  },
+  "sortByNameA-Z": {
+    "en": "Sort by Name (A-Z)",
+    "nl": "Sorteren op Naam (A-Z)"
+  },
+  "sortByNameZ-A": {
+    "en": "Sort by Name (Z-A)",
+    "nl": "Sorteren op Naam (Z-A)"
+  },
+  "sortDateAscending": {
+    "en": "Sort by Date (Ascending)",
+    "nl": "Sorteren op Datum (Oplopend)"
+  },
+  "sortDateDescending": {
+    "en": "Sort by Date (Descending)",
+    "nl": "Sorteren op Datum (Aflopend)"
+  },
+  "startDate": {
+    "en": "Start date: ",
+    "nl": "Startdatum: "
+  },
+  "noActivitiesFound": {
+    "en": "No activities found",
+    "nl": "Geen activiteiten gevonden"
   }
 }

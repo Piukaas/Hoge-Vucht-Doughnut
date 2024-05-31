@@ -101,17 +101,17 @@ const Activities = () => {
     <section>
       <div className="container">
         <h2 className="text-center">{t("activities")}</h2>
-        <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.</p>
+        <p className="text-center">{t("activitiesDescription")}</p>
 
         <div className="filter-row mb-4">
           <div className="row">
             <div className="col-md-4 mb-3 d-flex align-items-center">
               <i className="fa fa-search mr-5"></i>
-              <input type="text" className="form-control" placeholder="Search by title" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+              <input type="text" className="form-control" placeholder={t("searchByTitle")} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
             <div className="col-md-2 mb-3">
               <select className="form-control" value={selectedTag} onChange={(e) => setSelectedTag(e.target.value)}>
-                <option value="">Filter by tag</option>
+                <option value="">{t("filterByTag")}</option>
                 {tags.map((tag) => (
                   <option key={tag} value={tag}>
                     {t(tag)}
@@ -121,7 +121,7 @@ const Activities = () => {
             </div>
             <div className="col-md-2 mb-3">
               <select className="form-control" value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)}>
-                <option value="">Filter by status</option>
+                <option value="">{t("filterByStatus")}</option>
                 <option value="upcoming">{t("upcoming")}</option>
                 <option value="cancelled">{t("cancelled")}</option>
                 <option value="finished">{t("finished")}</option>
@@ -133,11 +133,11 @@ const Activities = () => {
             <div className="col-md-2 mb-3 d-flex align-items-center">
               <i className="fa-solid fa-sort mr-5"></i>
               <select className="form-control" value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
-                <option value="">Sort by</option>
-                <option value="name-asc">Name A-Z</option>
-                <option value="name-desc">Name Z-A</option>
-                <option value="date-asc">Date Ascending</option>
-                <option value="date-desc">Date Descending</option>
+                <option value="">{t("sortBy")}</option>
+                <option value="name-asc">{t("sortByNameA-Z")}</option>
+                <option value="name-desc">{t("sortByNameZ-A")}</option>
+                <option value="date-asc">{t("sortDateAscending")}</option>
+                <option value="date-desc">{t("sortDateDescending")}</option>
               </select>
             </div>
           </div>
@@ -174,7 +174,7 @@ const Activities = () => {
                   </div>
                   <p className="mt-1">{activity.description}</p>
                   <p>
-                    <strong>Start Date:</strong> {new Date(activity.startDate).toLocaleDateString("en-GB", { day: "2-digit", month: "2-digit", year: "numeric" })}
+                    <strong>{t("startDate")}</strong> {new Date(activity.startDate).toLocaleDateString("en-GB", { day: "2-digit", month: "2-digit", year: "numeric" })}
                   </p>
                   <div className="tags">
                     {Array.isArray(activity.tags)
@@ -192,7 +192,7 @@ const Activities = () => {
             ))
           ) : (
             <div className="col-12">
-              <p>No activities found.</p>
+              <p>{t("noActivitiesFound")}</p>
             </div>
           )}
         </div>
