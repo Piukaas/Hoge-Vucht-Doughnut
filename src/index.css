@@ -365,16 +365,16 @@ img {
   list-style-type: none;
 }
 
-.section-primary {
+.section {
   padding: 25px 0;
 }
 
-.section-secondary {
-  padding: 25px 0;
-}
-
-.nav-section {
+.start-section {
   padding-bottom: 25px;
+}
+
+.end-section {
+  padding-top: 25px;
 }
 
 /* Footer */

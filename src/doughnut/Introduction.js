@@ -6,7 +6,7 @@ const Introduction = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="section-secondary row">
+    <div className="section row">
       <div className="col-md-6">
         <h1>{t("introduction")}</h1>
         <p>{t("introductionDescription.part1")}</p>

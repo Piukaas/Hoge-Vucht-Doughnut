@@ -9,7 +9,7 @@ const DoughnutChart = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="section-primary row">
+    <div className="section row">
       <img src={doughnut2} alt="Doughnut" className="col-md-4 details-image" />
       <div className="col-md"></div>
 

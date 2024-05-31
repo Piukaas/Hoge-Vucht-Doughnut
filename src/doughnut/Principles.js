@@ -5,7 +5,7 @@ const Principles = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="section-secondary">
+    <div className="end-section">
       <h2>{t("doughnutPrinciples")}</h2>
       <p>{t("principlesDescription")}</p>
 
