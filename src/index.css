@@ -110,6 +110,12 @@ a.page-link:hover {
   transition: 1s;
 }
 
+.btn-primary.round {
+  border-radius: 100% !important;
+  height: 50px;
+  width: 50px;
+}
+
 .btn-primary:hover {
   background-color: var(--background) !important;
   scale: 1.1;
@@ -357,6 +363,18 @@ img {
 /* Doughnut */
 .no-bullets {
   list-style-type: none;
+}
+
+.section-primary {
+  padding: 25px 0;
+}
+
+.section-secondary {
+  padding: 25px 0;
+}
+
+.nav-section {
+  padding-bottom: 25px;
 }
 
 /* Footer */

@@ -308,16 +308,34 @@
     "nl": "Introductie"
   },
   "introductionDescription": {
-    "en": "The Doughnut offers a vision of what it means for humanity to thrive in the 21st century - and Doughnut Economics explores the mindset and ways of thinking needed to get us there. First published in 2012 in an Oxfam report by Kate Raworth, the concept of the Doughnut rapidly gained traction internationally, from the Pope and the UN General Assembly to Extinction Rebellion. Kate's 2017 book, Doughnut Economics: seven ways to think like a 21st century economist, further explored the economic thinking needed to bring humanity into the Doughnut, drawing together insights from diverse economic perspectives in a way that everyone can understand. This 2018 TED talk gives a summary of the book's core messages, and you can read Chapter One here.",
-    "nl": "De Donut biedt een visie op wat het betekent voor de mensheid om te gedijen in de 21e eeuw - en Donut Economics onderzoekt de mindset en de manieren van denken die nodig zijn om daar te komen. Voor het eerst gepubliceerd in 2012 in een Oxfam-rapport van Kate Raworth, kreeg het concept van de Donut snel internationale bekendheid, van de paus en de Algemene Vergadering van de VN tot Extinction Rebellion. Kate's boek uit 2017, Donut Economics: zeven manieren om te denken als een econoom uit de 21e eeuw, verkent verder het economische denken dat nodig is om de mensheid naar de Donut te brengen, waarbij inzichten uit diverse economische perspectieven op een manier worden samengebracht die voor iedereen begrijpelijk is. Deze TED-talk uit 2018 geeft een samenvatting van de kernboodschappen van het boek, en je kunt hier Hoofdstuk Een lezen."
+    "en": {
+      "part1": "The Doughnut offers a vision of what it means for humanity to thrive in the 21st century - and Doughnut Economics explores the mindset and ways of thinking needed to get us there.",
+      "part2": "First published in 2012 in an Oxfam report by Kate Raworth, the concept of the Doughnut rapidly gained traction internationally, from the Pope and the UN General Assembly to Extinction Rebellion.",
+      "part3": "Kate's 2017 book, Doughnut Economics: seven ways to think like a 21st century economist, further explored the economic thinking needed to bring humanity into the Doughnut, drawing together insights from diverse economic perspectives in a way that everyone can understand.",
+      "part4": "This 2018 TED talk gives a summary of the book's core messages, and you can read Chapter One here."
+    },
+    "nl": {
+      "part1": "De Donut biedt een visie op wat het betekent voor de mensheid om te gedijen in de 21e eeuw - en Donut Economics onderzoekt de mindset en de manieren van denken die nodig zijn om daar te komen.",
+      "part2": "Voor het eerst gepubliceerd in 2012 in een Oxfam-rapport van Kate Raworth, kreeg het concept van de Donut snel internationale bekendheid, van de paus en de Algemene Vergadering van de VN tot Extinction Rebellion.",
+      "part3": "Kate's boek uit 2017, Donut Economics: zeven manieren om te denken als een econoom uit de 21e eeuw, verkent verder het economische denken dat nodig is om de mensheid naar de Donut te brengen, waarbij inzichten uit diverse economische perspectieven op een manier worden samengebracht die voor iedereen begrijpelijk is.",
+      "part4": "Deze TED-talk uit 2018 geeft een samenvatting van de kernboodschappen van het boek, en je kunt hier Hoofdstuk Een lezen."
+    }
   },
   "whatIsTheDoughnut": {
     "en": "What is the Doughnut?",
     "nl": "Wat is de Donut?"
   },
   "doughnutDescription": {
-    "en": "Think of it as a compass for human prosperity in the 21st century, with the aim of meeting the needs of all people within the means of the living planet. The Doughnut consists of two concentric rings: a social foundation, to ensure that no one is left falling short on life’s essentials, and an ecological ceiling, to ensure that humanity does not collectively overshoot the planetary boundaries that protect Earth's life-supporting systems. Between these two sets of boundaries lies a doughnut-shaped space that is both ecologically safe and socially just: a space in which humanity can thrive. The Doughnut is the core concept at the heart of Doughnut Economics. ",
-    "nl": "Zie het als een kompas voor menselijke welvaart in de 21e eeuw, met als doel te voldoen aan de behoeften van alle mensen binnen de middelen van de levende planeet. De Donut bestaat uit twee concentrische ringen: een sociale basis, om ervoor te zorgen dat niemand tekortschiet aan essentiële levensbehoeften, en een ecologisch plafond, om ervoor te zorgen dat de mensheid niet collectief de planetaire grenzen overschrijdt die de levensondersteunende systemen van de aarde beschermen. Tussen deze twee sets grenzen ligt een donutvormige ruimte die zowel ecologisch veilig als sociaal rechtvaardig is: een ruimte waarin de mensheid kan gedijen. De Donut is het kernconcept dat centraal staat in Donut Economics."
+    "en": {
+      "part1": "Think of it as a compass for human prosperity in the 21st century, with the aim of meeting the needs of all people within the means of the living planet.",
+      "part2": "The Doughnut consists of two concentric rings: a social foundation, to ensure that no one is left falling short on life’s essentials, and an ecological ceiling, to ensure that humanity does not collectively overshoot the planetary boundaries that protect Earth's life-supporting systems.",
+      "part3": "Between these two sets of boundaries lies a doughnut-shaped space that is both ecologically safe and socially just: a space in which humanity can thrive. The Doughnut is the core concept at the heart of Doughnut Economics."
+    },
+    "nl": {
+      "part1": "Zie het als een kompas voor menselijke welvaart in de 21e eeuw, met als doel te voldoen aan de behoeften van alle mensen binnen de middelen van de levende planeet.",
+      "part2": "De Donut bestaat uit twee concentrische ringen: een sociale basis, om ervoor te zorgen dat niemand tekortschiet aan essentiële levensbehoeften, en een ecologisch plafond, om ervoor te zorgen dat de mensheid niet collectief de planetaire grenzen overschrijdt die de levensondersteunende systemen van de aarde beschermen.",
+      "part3": "Tussen deze twee sets grenzen ligt een donutvormige ruimte die zowel ecologisch veilig als sociaal rechtvaardig is: een ruimte waarin de mensheid kan gedijen. De Donut is het kernconcept dat centraal staat in Donut Economics."
+    }
   },
   "doughnutPrinciples": {
     "en": "Doughnut Principles of Practice",
