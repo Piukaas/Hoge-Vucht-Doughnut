@@ -106,7 +106,7 @@ const Activities = () => {
 
         <div className="filter-row mb-4">
           <div className="row">
-            <div className="col-md-4 mb-3 d-flex align-items-center">
+            <div className="col-md-3 mb-3 d-flex align-items-center">
               <i className="fa fa-search mr-5"></i>
               <input type="text" className="form-control" placeholder={t("searchByTitle")} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
@@ -131,7 +131,7 @@ const Activities = () => {
             <div className="col-md-2 mb-3">
               <input type="date" className="form-control" value={startDate} onChange={(e) => setStartDate(e.target.value)} />
             </div>
-            <div className="col-md-2 mb-3 d-flex align-items-center">
+            <div className="col-md-3 mb-3 d-flex align-items-center">
               <i className="fa-solid fa-sort mr-5"></i>
               <select className="form-control" value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
                 <option value="">{t("sortBy")}</option>
@@ -141,6 +141,7 @@ const Activities = () => {
                 <option value="date-desc">{t("sortDateDescending")}</option>
               </select>
             </div>
+            <hr />
           </div>
         </div>
 
